@@ -1,0 +1,31 @@
+{
+  "name": "responsive-grid-app",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Mahiraj",
+    "email": "mahirajchavda2000@gmail.com"
+  },
+  "scripts": {
+    "dev": "next dev -p 3033",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.3",
+    "antd": "^5.22.3",
+    "axios": "^1.7.9",
+    "next": "14.2.20",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.20",
+    "typescript": "^5"
+  }
+}
